@@ -1,0 +1,55 @@
+algoritmo "Exercício looping"
+// Função : Análise de dados
+// Autor : LB
+// Data : 21/10/2024
+// Seção de Declarações 
+var
+continua, cat, nome:caractere
+valor, totcli, totG, Desc, totcat1, Totcat1Desc, Totcat2, parc2, totfcat1 :real
+codigo:inteiro
+inicio
+// Seção de Comandos
+continua <- "S"
+Enquanto continua = "S" faca
+Escreva("Escreva o nome do cliente: ")
+Leia(nome)
+Escreva("Escreva a categoria do cliente: ")
+Leia(cat)
+Escreva("Escreva o valor gasto pelo cliente: ")
+Leia(valor)
+Escreva("Escreva o código do cliente: ")
+Leia(codigo)
+totcli <- totcli + 1
+totG <- totG + valor
+Se cat = "1" Entao
+   Desc <- valor * 0.12
+   totcat1 <- valor - desc
+   totfcat1 <- totfcat1 + totcat1
+   Totcat1Desc <- Totcat1desc + desc
+senao
+  se cat = "2" Entao
+    parc2 <- valor / 3
+    Totcat2 <- totcat2 + valor
+  Fimse
+fimse
+
+Escreva("Deseja continuar? (S/N)")
+Leia(continua)
+FimEnquanto
+
+Se codigo = 26215 entao
+   escreval("CÓDIGO SORTEADO É: ", codigo)
+   Escreval("P A R A B É N S !")
+fimse
+Escreval("")
+Escreval("O total geral do valor arrecadado foi: ", totG)
+Escreval("")
+Escreval("O total vendido para a categoria 1 foi de: ", totfcat1)
+Escreval("")
+Escreval("O total vendido para a categoria 2 foi de: ", totcat2)
+Escreval("")
+Escreval("O total de descontos obtidos foi de: ", totcat1desc)
+Escreval("")
+Escreval("O total de clientes atendidos foi: ", totcli)
+
+fimalgoritmo
