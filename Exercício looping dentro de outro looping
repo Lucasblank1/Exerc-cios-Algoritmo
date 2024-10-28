@@ -1,0 +1,21 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 28/10/2024
+// Seção de Declarações 
+var
+a, b:real
+inicio
+// Seção de Comandos 
+Enquanto a<10 faca
+escreva ("primeiro enquanto")
+escreval()
+a <- a+1
+enquanto b < 10 faca
+escreva("segundo enquanto")
+escreval ()
+b <- b+1
+fimenquanto
+b <- 0
+fimenquanto
+fimalgoritmo
