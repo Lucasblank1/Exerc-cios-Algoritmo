@@ -1,0 +1,30 @@
+algoritmo "Ordem Crescente"
+// Função :Ordenar Vetor
+// Autor :LB
+// Data : 04/11/2024
+// Seção de Declarações 
+var
+i, aux:inteiro
+num:vetor[1..10] de inteiro
+inicio
+// Seção de Comandos 
+Para i de 1 ate 10 faca
+Escreva("Digite um número: ")
+Leia(num[i])
+Fimpara
+Para i de 1 ate 9 faca
+se num[i] > num[i+1] entao
+aux <- num[i]
+num[i] <- num[i+1]
+num [i+1] <- aux
+fimse
+fimpara
+Escreval("Números digitados:")
+para i de 1 ate 9 faca
+escreval(num[i])
+fimpara
+Escreval("Números em ordem crescente: ")
+para aux de 1 ate 9 faca
+escreval(aux)
+fimpara
+fimalgoritmo
