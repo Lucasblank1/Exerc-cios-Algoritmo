@@ -1,0 +1,20 @@
+algoritmo "Teste de repetição"
+// Função :
+// Autor :LB
+// Data : 04/11/2024
+// Seção de Declarações 
+var
+i:inteiro
+nome:vetor [1..5] de caractere
+inicio
+// Seção de Comandos
+para i de 1 ate 5 faca
+Escreva("Escreva um nome: ")
+Leia(nome[i])
+Escreval(i)
+Fimpara
+Escreval()
+Para i de 1 ate 5 faca
+Escreval(nome[i])
+Fimpara
+fimalgoritmo
