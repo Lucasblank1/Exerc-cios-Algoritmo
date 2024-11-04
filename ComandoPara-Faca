@@ -1,0 +1,20 @@
+algoritmo "Notas"
+// Função : exercitar comando Para<>faca
+// Autor :LB
+// Data : 31/10/2024
+// Seção de Declarações 
+var
+j:inteiro
+nome:caractere
+nota:real
+inicio
+// Seção de Comandos
+Para j de 1 ate 5 faca
+Escreval("Qual o nome do aluno?")
+Leia(nome)
+Escreval("Qual a nota do aluno?")
+Leia(nota)
+Escreval("")
+fimpara
+ 
+fimalgoritmo
