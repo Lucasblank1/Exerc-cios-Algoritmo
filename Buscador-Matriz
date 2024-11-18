@@ -1,0 +1,45 @@
+algoritmo "Buscador-Matriz"
+// Função : Buscar números nas matrizes
+// Autor : LB
+// Data : 18/11/2024
+// Seção de Declarações 
+var
+vet: vetor[1..3,1..3] de inteiro
+numero,j, i: inteiro
+achou: logico
+
+inicio
+para i de 1 ate 3 faca
+     para j de 1 ate 3 faca
+
+   leia(vet[i,j])
+   fimpara
+fimpara
+
+Para i de 1 ate 3 faca
+para j de 1 ate 3 faca
+   Escreva(vet[i,j])
+Fimpara
+Escreval()
+Fimpara
+Escreval()
+escreva("Digite um número para buscar no vetor: ")
+leia(numero)
+
+achou <- falso
+
+para i de 1 ate 3 faca
+para j de 1 ate 3 faca
+   se vet[i,j] = numero entao
+      se nao achou entao
+         escreval("O número ", numero, " foi encontrado nas posições: ")
+      fimse
+      escreva(i,",",j)
+      achou <- verdadeiro
+   fimse
+   fimpara
+fimpara
+se nao achou entao
+   escreval("O número ", numero, " não está presente no vetor.")
+fimse
+fimalgoritmo
